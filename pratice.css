@@ -1,0 +1,43 @@
+/*this is a css comment*/
+
+h1 {
+    color: red;
+    font-size: 12px;
+}
+
+selector {
+    property: value;
+    property: value;
+}
+
+h1, h2, p {
+    color: blue;
+}
+
+* {
+    background-color: darkblue;
+} /*Applies to whole html*/
+
+.aboutme {
+    background-color: blue;
+} /*applies to specified page*/
+
+/* */
+.large {
+    font-size: 50px;
+}
+
+<p class="large">Hello World</p> 
+/* defining class w html tag example*/
+
+.makeMeRed {
+    color: red;
+}
+
+body {
+    background-color: rgba(255, 99, 71, 0.8);
+}
+
+body {
+    background-image: url("background.jpg");
+}

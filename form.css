@@ -1,0 +1,157 @@
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #071624;
+}
+
+.container {
+    flex-direction: column;
+    height: 100%;
+    margin: 20px;
+    overflow-y: auto;
+}
+
+.wrapper{
+    background-color:#000000;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 250px;
+    height: 250px;
+    align-self: center;
+}
+
+nav a{
+    color: #b856df;
+    font-size: 16px;
+    margin: 25px;
+}
+
+a:link{
+    color: #b856df;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: color 0.4s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+ }
+
+a:hover {
+    color: #9BFDE9;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+
+h2 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.container2 {
+    display: flex;
+    min-height: 40vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    margin: 0px;
+}
+
+
+.box{
+    text-align: center;
+    width:20vw;
+    padding:15px;
+    margin:10px;
+}
+
+.box1 {
+    background-color: #183149;
+    align-items: center;
+    color: white;
+}
+
+.box2 {
+    background-color: #183149;
+    color: white;
+}
+
+.box3 {
+    background-color: #183149;
+    align-items: center;
+    color: white;
+}
+
+.box3 a{
+    color: #b856df;
+    font-size: 13px;
+    margin: 25px;
+}
+
+a:link{
+    color: #b856df;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: color 0.4s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+ }
+
+a:hover {
+    color: #9BFDE9;
+}
+
+link {
+    color: #B78DCD;
+    text-decoration: none;
+    transition: color 0.4s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+}
+
+footer {
+    background-color: black;
+    margin: 20px;
+    height: 20vh;
+}
+
+footer p{
+    position: absolute;
+    width: 100%;
+    line-height: 40px;
+    margin-left: 25px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+}
