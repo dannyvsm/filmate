@@ -22,13 +22,13 @@ const Navbar = () => {
       <div className="navbar">
         <div className="container">
           <div className="left">
-            <Film classname="logo"/>
+            <Film className="logo"/>
             <span></span>
             <span>Home</span>
             <div className="menu">
                 <span>Films</span>
                 <ArrowDrop className="icon" />
-                <div class="films">     
+                <div className="films">     
                     <span>By Decade</span>
                     <span>By Genre</span>
                     <span>By Director</span>
