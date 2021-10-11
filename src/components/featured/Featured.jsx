@@ -13,8 +13,7 @@ export default function Featured() {
                 <h2 class="spotlight">In the spotlight</h2>
                 <span className="description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste aliquam quas, sint saepe, id officia aut, animi beatae dignissimos cumque dolor commodi illo ullam consequatur labore aspernatur delectus et amet.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, soluta esse? Aspernatur, incidunt consequatur voluptatum impedit, quis sed possimus magnam iste cumque consectetur consequuntur doloremque cum! Dolore libero deserunt consectetur?
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et alias pariatur maiores magnam aliquid quam ratione? Odio reiciendis optio unde ad ut, cumque commodi natus minus, sapiente voluptatem, est suscipit?
+                    Aspernatur, incidunt consequatur voluptatum impedit, quis sed possimus magnam iste cumque consectetur consequuntur doloremque cum! 
                 </span>
                 </div>
                 <div className="notif">
