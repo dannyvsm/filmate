@@ -1,5 +1,6 @@
 import React from "react";
 import './navbar.scss'
+import { useState } from "react";
 // import {ReactComponent as Logo} from ''
 import Search from "@mui/icons-material/Search";
 import Notifs from "@mui/icons-material/Notifications";
@@ -9,10 +10,18 @@ import Film from '@mui/icons-material/CameraRoll';
 // import Logo from '../../imgs/svg/oldstyletubeTV.svg';
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  window.onscroll = () => {
+    setIsScrolled(window.pageYOffset === 0 ? false : true);
+    return () => (window.onscroll = null);
+  };
+
   return (
-    <div className="navbar">
-      <div className="container">
-        <div className="left">
+    <div className={isScrolled ? "navbar scrolled" : "navbar"}>
+      <div className="navbar">
+        <div className="container">
+          <div className="left">
             <Film classname="logo"/>
             <span></span>
             <span>Home</span>
@@ -45,6 +54,7 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
+      </div>
       </div>
     </div>
   );
