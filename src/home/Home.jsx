@@ -18,6 +18,7 @@ const Home = () => {
             <h1 className="title">Welcome Home</h1>
             <div className="welcome">
                 <h2 className="greeting">Hello there!</h2>
+                <div className="info">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, magni mollitia obcaecati est incidunt tenetur tempore tempora iusto quod suscipit nam aliquam nobis dolor aliquid, adipisci corporis repellendus id doloribus!
                     
@@ -26,6 +27,12 @@ const Home = () => {
                     Sed, possimus quae nisi libero ut magnam quisquam incidunt fugit dolorum temporibus eius earum aliquid ullam eligendi tempora nulla obcaecati! Mollitia, necessitatibus?
                     Ad, hic autem voluptate, quisquam architecto eligendi aliquam impedit dicta optio repudiandae exercitationem non officiis voluptatibus earum voluptates culpa nesciunt
                 </p>
+
+                </div>
+                <div className="genre">
+                    
+                </div>
+               
             </div>
             
             {/* <MovieFilterIcon/> */}
