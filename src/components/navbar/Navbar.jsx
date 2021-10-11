@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="navbar">
             <div className="container">
                 <div className="left"></div>
-                    <Logo />
+                    {/* <Logo /> */} navbar
                 <div className="right"></div>
             </div>
         </div>
