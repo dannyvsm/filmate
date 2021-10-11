@@ -1,3 +1,40 @@
 .navbar {
     background-color: #152821;
+    font-size: 14px;
+    color: var(--main-colour);
+
+    .container {
+        padding: 0px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+
+        .left {
+            display: flex;
+            align-items: center;
+            img {
+            height:25px;
+            }
+
+            span {
+                margin-right: 20px;
+                
+            }
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+            img {
+                color: white;
+                height: 30px;
+                width: 30px;
+                border-radius: 5px;
+                object-fit: cover;
+                cursor: pointer;
+            }
+        }
+        
+    }
 }

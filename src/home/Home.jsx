@@ -1,5 +1,5 @@
 import React from 'react'
-import "./home.scss"
+import '../home/home.scss'
 // import AddComment from '@mui/icons-material/AddComment';
 // import MovieFilterIcon from '@mui/icons-material/MovieFilter';
 import Navbar from '../components/navbar/Navbar';
