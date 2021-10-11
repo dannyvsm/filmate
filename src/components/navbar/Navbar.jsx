@@ -33,7 +33,6 @@ const Navbar = () => {
                     <span>By Genre</span>
                     <span>By Director</span>
                     <span>By Country</span>
-                    <span>Settings</span>
                     <span>Hidden Gems</span>
                     <span>Show me something!</span>
                 </div>   
