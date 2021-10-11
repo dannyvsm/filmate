@@ -14,20 +14,63 @@
             display: flex;
             align-items: center;
             margin-right: 20px;
-            img {
+            
+            .logo {
                 height:25px;
+                cursor: pointer;
+            }
+
+            .menu {
+                display: flex;
+                align-items: center;
+                justify-content: left;
+
+                .icon {
+                    margin-left: -40px;
+                    cursor: pointer;
+                    margin-right: 30px;
+                }
+
+                .films {
+                    display: none;
+                    background-color: var(--main-colour);
+                    border-radius: 5px;
+                    color: black;
+                    
+                }
+                    
+                span {
+                    padding: 10px;
+                    cursor: pointer;
+                }
+
+                &:hover {
+                    .films {
+                        display: flex;
+                        flex-direction: column;
+                        position: absolute;
+                      
+                    }
+                }
             }
 
             span {
                 margin-right: 40px;
                 cursor: pointer;                
             }
+
+
         }
 
         .right {
             display: flex;
             align-items: center;
             
+            .icon {
+                margin-left: 40px;
+                cursor: pointer;
+            }
+
             img {
                 color: white;
                 height: 30px;
@@ -37,9 +80,29 @@
                 cursor: pointer;
             }
 
-            span {
-                margin-left: 40px;
+            .settings {
+                .options {
+                    display: none;
+                    background-color: var(--main-colour);
+                    border-radius: 5px;
+                    color: black;
+                    
+                }
+
+                span {
+                    padding: 10px;
+                    cursor: pointer;
+                }
+    
+                &:hover {
+                    .options {
+                        display: flex;
+                        flex-direction: column;
+                        position: absolute;
+                    }
+                }
             }
+
         }
         
     }
