@@ -4,6 +4,7 @@ import '../home/home.scss'
 // import MovieFilterIcon from '@mui/icons-material/MovieFilter';
 import Navbar from '../components/navbar/Navbar';
 import Featured from '../components/featured/Featured'
+import List from '../components/list/List'
 
 
 const Home = () => {
@@ -28,18 +29,15 @@ const Home = () => {
                     Ad, hic autem voluptate, quisquam architecto eligendi aliquam impedit dicta optio repudiandae exercitationem non officiis voluptatibus earum voluptates culpa nesciunt
                 </p>
 
-                </div>
-                <div className="genre">
-                    
-                </div>
-               
+                </div> 
             </div>
             
             {/* <MovieFilterIcon/> */}
+            <List />
             <Featured />
            {/* <AddComment/> */}
-            </div>
-        )
+        </div>
+    )
 }
 
 export default Home
