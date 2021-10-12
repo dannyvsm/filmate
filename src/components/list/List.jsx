@@ -55,7 +55,7 @@ export default function List() {
             <div className="wrapper">
                 <LeftArrow class="sliderbtn left" onClick={() => handleClick("left")}/>
                     {/* <PlayIcon className="playbtn"/> */}
-                    <div className="container">
+                    <div className="container" ref={listRef}>
                         <ListItem />
                         <ListItem />
                         <ListItem />
