@@ -34,6 +34,7 @@ const Home = () => {
             
             {/* <MovieFilterIcon/> */}
             <List />
+            <span></span>
             <Featured />
            {/* <AddComment/> */}
         </div>
