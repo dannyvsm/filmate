@@ -1,6 +1,7 @@
 import React from 'react'
 import './featured.scss'
 import NotifsIcon from '@mui/icons-material/Notifications';
+import PlayIcon from '@mui/icons-material/PlayCircle';
 
 export default function Featured() {
     return (
@@ -10,10 +11,11 @@ export default function Featured() {
                 alt="this weeks featured film"
             />
             <div className="info">
+                <PlayIcon />
                 <h2 class="spotlight">In the spotlight</h2>
                 <span className="desc">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste aliquam quas, sint saepe, id officia aut, animi beatae dignissimos cumque dolor commodi illo ullam consequatur labore aspernatur delectus et amet.
-                    Aspernatur, incidunt consequatur voluptatum impedit, quis sed possimus magnam iste cumque consectetur consequuntur doloremque cum! 
+                    Aspernatur, incidunt consequatur voluptatum impedit, quis sed possimus magnam iste cumque consectetur consequuntur doloremque! 
                 </span>
                 </div>
                 <div className="notif">
